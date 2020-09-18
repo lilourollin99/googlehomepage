@@ -1,0 +1,108 @@
+body
+{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+.header
+{
+float:right;
+}
+
+.header a, .header button
+{
+margin:10px;
+columns: #000000;
+text-decoration:none;
+}
+
+.header button{
+
+    background : #5584EC;
+    padding : 8px;
+    font-size: 15px;
+    color : #ffffff;
+    border-radius: 10%;
+    font-weight:bold;
+}
+
+.main
+{text-align:center;}
+
+
+.logo-img img{
+
+    width:320px;
+    height:100px;
+   margin-left: 300px;
+   margin-top: 15%;
+}
+
+.search-box input { 
+    width: 500px;
+    height:30px;
+    margin:4px;
+    padding:8px;
+    border:1px solid grey;
+    border-radius:25px;
+}
+
+#recherche-google-btn{
+    border:none;
+    font-size:15px;
+    color:#5F6368;
+    margin-right:25px;
+    padding:7px 15px 7px 15px;
+    border-radius:3px;
+}
+
+#jai-de-la-chance-btn{
+    border:none;
+    font-size:15px;
+    color:#5F6368;
+    padding:7px 15px 7px 15px;
+    border-radius:3px;
+}
+
+.footer {
+
+    background:#f2f2f2;
+    font-family:arial;
+    color: #757575;
+    padding:5px;
+    bottom:0;
+    position:fixed;
+    width: 100%;
+}
+
+  #footer-left{
+    display:flex;
+    justify-content:flex-start;
+    align-content:space-between;
+}
+
+  .footer-left{
+      color:#585858;
+      float:left;
+      padding:10px;
+      margin-left:20px;
+      text-decoration:none;
+      font-size:13px;
+}
+
+  #footer-right{
+
+display:flex;
+justify-content:flex-end;
+align-content:space-between;
+  }
+
+  .footer-right{
+      color:#585858;
+      float:right;
+      padding:10px;
+      margin-left:20px;
+      text-decoration:none;
+      font-size:13px;
+  }
